@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #cccccc;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  gap: 20px;
+}
+
+label {
+  font-size: 24px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  height: 40px;
+  border-radius: 16px;
+  border: none;
+}
+
+input:nth-child(8) {
+  height: 80px;
+}
+
+button {
+  border-radius: 8px;
+  background: #cccccc;
+  border: 1.5px solid #7546c9;
+  color: #7546c9;
+  font-weight: bold;
+  height: 40px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #7546c9;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
